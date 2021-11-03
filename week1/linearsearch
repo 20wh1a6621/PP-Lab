@@ -1,0 +1,15 @@
+ def linearSearch(n,a,ele):
+      for i in range(0,n):
+         if a[i] == ele:
+            return i
+         else:
+            return -1
+  a =[ 2, 3, 4 ,5 ,6]
+  n = len(a)
+  ele = int(input())
+  result = linearSearch(n,a,ele)
+  if (result == -1):
+        print("element not found")
+  else:
+       print("element found at position:"result)
+ 
